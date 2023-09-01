@@ -1,0 +1,35 @@
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+}
+
+nav li:hover {
+    background-color: rgb(213, 217, 217);
+    padding: 5px;
+}
+
+/* nusted menu style */
+nav li .dropdawon {
+    display: none;
+    position: absolute;
+    background-color: darkkhaki;
+    padding: 5px;
+
+
+}
+
+nav li:hover .dropdawon {
+    display: block;
+}
+
+.dropdawon {
+    list-style: none;
+    margin-top: 2px;
+}

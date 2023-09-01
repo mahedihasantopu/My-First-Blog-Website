@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha House</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        label {
+            display: block;
+            margin-top: 20px;
+        }
+
+        .fieldset {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li>
+                    <a href="from.html">Form</a>
+                </li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdawon">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="from.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <header>
+            <h1>Please Login the From</h1>
+            <label for=""> Your Name
+                <input type="name" placeholder="Your Name">
+            </label>
+            <label for=""> Your Email
+                <input type="email" required placeholder="Your Email">
+            </label>
+            <label for="">Password
+                <input type="password" placeholder="Your Password">
+            </label>
+
+
+
+            <fieldset>
+                <legend>
+                    Please Chose the pitha
+
+                </legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="">Chitoy
+                </label>
+                <label for="Bhapa">
+                    <input type="radio" name="pitha" id="Bhapa"> Bhapa
+                </label>
+                <label for="puly">
+                    <input type="radio" name="pitha" id="puly">puly
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Please Select Vorta Itams</legend>
+                <label for="">
+                    <input type="checkbox" name="Vorta" id="Shutki">Shutki
+                </label>
+                <label for="">
+                    <input type="checkbox" name="vorta" id="Shorisa">Shorisa
+                </label>
+
+            </fieldset>
+            <input style="background-color: red; border: none; padding: 5px; margin-top: 5px; border-radius: 5px;"
+                type="reset" value="Reset">
+            <input style="background-color: green; border: none; padding: 5px;margin-top: 5px; border-radius: 5px;"
+                type="submit" value="Submit">
+        </header>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
